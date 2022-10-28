@@ -157,6 +157,7 @@ h1 {
 ul {
   /* Remove bullet point  */
   list-style: none;
+  padding-left: 200px;
 }
 
 li {
@@ -212,8 +213,8 @@ input {
 
 .abs-left{
   width: 100%;
-  background: #1d1b1b;
-  line-height: 50px;
+  background: #302f33;
+  line-height: 40px;
   height: 100%;
 }
 .abs-left .abs-profile {
@@ -224,7 +225,7 @@ input {
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(142, 61, 61);
 }
 .abs-left .abs-profile  img {
     width: 400px;
@@ -236,7 +237,7 @@ input {
   padding: 0 126px;
 }
 .text {
-  color:#d0cf91;
+  color:#99d0e1;
 }
 /* .abs .title {
   margin-bottom: 20px;
@@ -247,7 +248,7 @@ input {
 .abs-item {
   padding: 5px 0;
   border-bottom: 2px solid #cccc;
-  text-align: justify;
+  /* text-align: justify; */
 }
  .abs-left .abs-item:last-child {
   border-bottom: 0px;
